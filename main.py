@@ -19,9 +19,6 @@ else:
         if jogada == maquina:
             print('Empate')
         else:
-            if jogada == 1 and maquina == 0:
-             print('jogador Venceu')
-            else:
              if jogada == 1 and maquina == 2 or jogada == 2 and maquina == 0 or jogada == 0 and maquina == 1:
                 print('Máquina venceu')
              else:
