@@ -19,25 +19,19 @@ else:
     if jogada == 0 and maquina == 2:
         print('Jogador venceu')
     else:
-        if jogada == 0 and maquina == 0:
+        if jogada == maquina:
             print('Empate')
         else:
-            if jogada == 1 and maquina == 1:
-                print('Empate')
+            if jogada == 1 and maquina == 0:
+             print('jogador Venceu')
             else:
-                if jogada == 1 and maquina == 0:
-                    print('jogador Venceu')
-                else:
-                    if jogada == 1 and maquina == 2:
+             if jogada == 1 and maquina == 2:
+                print('Máquina venceu')
+             else:
+                if jogada == 2 and maquina == 0:
                      print('Máquina venceu')
-                    else:
-                        if jogada == 2 and maquina == 0:
-                            print('Máquina venceu')
-                        else:
-                            if jogada == 2 and maquina == 1:
-                                print('Jogador venceu')
-                            else:
-                                if jogada == 2 and maquina == 2:
-                                    print('Empate')
-                                else:
-                                    print('Inválido')
+                else:
+                     if jogada == 2 and maquina == 1:
+                         print('Jogador venceu')
+                     else:
+                         print('Inválido')
