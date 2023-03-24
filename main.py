@@ -3,8 +3,15 @@ from random import *
 jogada = int(input('Insira sua jogada sendo pedra = 0, papel = 1 e tesoura = 2: '))
 
 maquina = randint(0,2)
+if maquina == 0:
+    print('O computador escolheu pedra')
+else:
+    if maquina == 1:
+        print('O computador escolheu Papel')
+    else:
+        if maquina == 2:
+         print('O computador escolheu Tesoura')
 
-print(maquina)
 
 if jogada == 0 and maquina == 1:
     print('Maquina venceu')
