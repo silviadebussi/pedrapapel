@@ -1,6 +1,6 @@
 from random import *
 
-jogada = int(input('Insira sua jogada: '))
+jogada = int(input('Insira sua jogada sendo pedra = 0, papel = 1 e tesoura = 2: '))
 
 maquina = randint(0,2)
 
